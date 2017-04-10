@@ -51,3 +51,5 @@ gem 'bcrypt'
 gem 'bootstrap-sass'
 
 gem 'ckeditor'
+
+gem 'jquery-minicolors-rails'

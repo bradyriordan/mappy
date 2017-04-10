@@ -23,6 +23,26 @@
     <%= f.label :content %><br>
     <%= f.cktext_area :content, :class => 'form-control' %>
   </div>
+  <div class="row">
+	  <div class="col-lg-4">
+		  <div class="field form-group">
+			<%= f.label :background_color %><br>
+			<%= f.text_field :background_color, :class => 'mini-colors form-control' %>
+		  </div>
+	  </div>
+	  <div class="col-lg-4">
+		<div class="field form-group">
+		<%= f.label :node_background_color %><br>
+		<%= f.text_field :node_background_color, :class => 'mini-colors form-control' %>
+		</div>
+	  </div>
+	  <div class="col-lg-4">
+		<div class="field form-group">
+		<%= f.label :node_stroke_color %><br>
+		<%= f.text_field :node_stroke_color, :class => 'mini-colors form-control' %>
+		</div>
+	  </div>
+  </div>  
   <div class="field form-group">
     <%= f.label :public %><br>
     <%= f.check_box :is_public %>
