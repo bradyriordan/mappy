@@ -1,11 +1,13 @@
 class MapsController < ApplicationController
   before_action :set_map, only: [:show, :edit, :update, :destroy]
   layout :resolve_layout
+  before_filter :require_permission, only: [:edit, :destroy]
 
   # GET /maps
   # GET /maps.json
   def index
     @maps = Map.all
+	@public = Map.public_maps
   end
 
   # GET /maps/1
@@ -15,7 +17,7 @@ class MapsController < ApplicationController
 
   # GET /maps/new
   def new
-    @map = Map.new
+    @map = Map.new	
   end
 
   # GET /maps/1/edit
@@ -26,7 +28,7 @@ class MapsController < ApplicationController
   # POST /maps.json
   def create
     @map = Map.new(map_params)
-
+	@map.user_id = current_user.id	
     respond_to do |format|
       if @map.save
         format.html { redirect_to @map, notice: 'Map was successfully created.' }
@@ -70,7 +72,7 @@ class MapsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def map_params
-      params.require(:map).permit(:name, :content)
+      params.require(:map).permit(:name, :content, :user_id, :description, :is_public)
     end
 	
 	#resolve layout
@@ -81,5 +83,13 @@ class MapsController < ApplicationController
 		else
 		  "application"
 		end
+	end	
+	
+	def require_permission
+	  if current_user != Map.find(params[:id]).user
+		redirect_to root_path
+		#Or do something else here
 	end
+	
+end
 end

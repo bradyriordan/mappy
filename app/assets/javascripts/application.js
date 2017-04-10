@@ -14,6 +14,7 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require bootstrap-sprockets
+//= require ckeditor/init
 // require js-mindmap/js-mindmap
 // require js-mindmap/raphael-min
 // require js-mindmap/script

@@ -1,8 +1,8 @@
 body {
-  background:green;
+  background-color:#15A38D;
 }
 .js-mindmap-active a.node {
-  background:red;
+  background:#15414C;
   border: 2px solid white;
   -webkit-border-top-left-radius: 20px;
   -webkit-border-bottom-right-radius: 20px;

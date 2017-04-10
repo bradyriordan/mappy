@@ -49,3 +49,5 @@ gem 'devise'
 gem 'bcrypt'
 
 gem 'bootstrap-sass'
+
+gem 'ckeditor'
