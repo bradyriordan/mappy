@@ -2,7 +2,6 @@
 <html>
 <head>
   <title>Mappy</title>
-  <%= stylesheet_link_tag    'js-mindmap/style', media: 'all', 'data-turbolinks-track' => true %>
   <%= stylesheet_link_tag    'js-mindmap/js-mindmap', media: 'all', 'data-turbolinks-track' => true %>
   
   <%= javascript_include_tag 'http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js'%>
@@ -14,6 +13,11 @@
   <%= javascript_include_tag 'js-mindmap/twitter-trends', 'data-turbolinks-track' => true %>
   
   <%= csrf_meta_tags %>
+  <style>
+  
+	 <%= render partial: "style" %>  
+	 
+  </style>
 </head>
 <body>
 	
