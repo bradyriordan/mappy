@@ -56,6 +56,6 @@ gem 'bcrypt'
 
 gem 'bootstrap-sass'
 
-gem 'ckeditor'
+gem 'ckeditor', git: "https://github.com/galetahub/ckeditor.git"
 
 gem 'jquery-minicolors-rails'
