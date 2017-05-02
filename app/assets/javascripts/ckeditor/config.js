@@ -60,5 +60,6 @@ CKEDITOR.editorConfig = function( config )
     { name: 'document', groups: [ 'mode', 'document', 'doctools' ], items: [ 'Source'] }, 
 	{ name: 'paragraph', groups: [ 'list', 'indent' ], items: [ 'BulletedList', '-', 'Outdent', 'Indent' ] },
     { name: 'links', items: [ 'Link', 'Unlink' ] }       
-  ];
+  ]; 
+  
 };
