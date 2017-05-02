@@ -1,7 +1,9 @@
 $( document ).ready(function() {
 	
-	
-    $.minicolors.defaults.theme = 'bootstrap';
-    
+    //jQuery Minicolors
+	$.minicolors.defaults.theme = 'bootstrap';    
 	$('.mini-colors').minicolors();
+	
+	//Tooltip
+	$('[data-toggle="tooltip"]').tooltip(); 
 });

@@ -1,20 +1,15 @@
 /*
  js-mindmap
-
  Copyright (c) 2008/09/10 Kenneth Kufluk http://kenneth.kufluk.com/
-
  MIT (X11) license
-
  Permission is hereby granted, free of charge, to any person obtaining a copy
  of this software and associated documentation files (the "Software"), to deal
  in the Software without restriction, including without limitation the rights
  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
  copies of the Software, and to permit persons to whom the Software is
  furnished to do so, subject to the following conditions:
-
  The above copyright notice and this permission notice shall be included in
  all copies or substantial portions of the Software.
-
  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -22,7 +17,6 @@
  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  THE SOFTWARE.
-
 */
 
 /*
@@ -30,7 +24,6 @@
     - remove Lines - NO - they seem harmless enough!
     - add better "make active" methods
     - remove the "root node" concept.  Tie nodes to elements better, so we can check if a parent element is root
-
     - allow progressive exploration
       - allow easy supplying of an ajax param for loading new kids and a loader anim
     - allow easy exploration of a ul or ol to find nodes
@@ -42,14 +35,11 @@
     - Add/Edit nodes
     - Resize event
     - incorporate widths into the forces, so left boundaries push on right boundaries
-
-
   Make demos:
     - amazon explore
     - directgov explore
     - thesaurus
     - themes
-
 */
 
 (function ($) {

@@ -1,7 +1,16 @@
 Rails.application.routes.draw do
+  
+  #for public pages
+  get 'public/contact'
+  get 'public/about'
+
+  #for maps
   resources :maps
+  
+  #for users
   devise_for :users
   
+  #for subscription/stripe payment
   resource :subscription
   
   root 	to: 'maps#index'
