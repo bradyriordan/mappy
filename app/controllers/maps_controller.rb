@@ -6,8 +6,15 @@ class MapsController < ApplicationController
   # GET /maps
   # GET /maps.json
   def index
-    @maps = Map.all
+    @maps = Map.all	
 	@public = Map.public_maps
+	
+    if params[:search]
+      @public = Map.search(params[:search]).order("created_at DESC")
+    else
+      @public = Map.all.order('created_at DESC')
+    end	
+	
   end
 
   # GET /maps/1

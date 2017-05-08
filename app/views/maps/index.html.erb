@@ -1,25 +1,34 @@
 <h1>Public Maps</h1>
 
-<table class="table">
-  <thead>
-    <tr>
-      <th>Name</th> 
-	  <th>Description</th>
-	  <th>Show</th> 	  
-    </tr>
-   </thead>
+	<%= form_tag(maps_path, :method => "get", id: "search-form") do %>
+	  <div class="field form-group">
+		  <%= text_field_tag :search, params[:search], placeholder: "Search Maps", :class => 'form-control', :id => 'maps-search' %>
+	  </div>
+	  <div class="field form-group">		  
+		  <%= submit_tag "Search", :class => 'btn btn-primary', :id => 'maps-search-submit-btn' %>
+	  </div>
+	<% end %>
 
-  <tbody>
-    <% @public.each do |map| %>
-      <tr>
-        <td><%= map.name %></td> 
-		<td><%= map.description %></td>
-        <td><%= link_to 'Show', map, :class => 'btn btn-success btn-xs' %> 
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-
+	
+	<% @public.limit(8).each_slice(4) do |map| %>
+	
+	  <div class='row'>
+	  
+		<% map.each do |map| %>
+		
+			<div class="col-lg-3 map-container">
+				<div class="map-inner">
+					<div><%= map.name %></div>
+					<%= link_to 'Show', map, :class => 'btn btn-success btn-xs' %> 
+				</div>
+				<div class="map-inner-username">by: <%= map.user.username %></div>
+			</div>
+		
+		<% end %>
+		
+	  </div>
+	  
+	<% end %>
 
 <% if user_signed_in? %>
 <h1>My Maps</h1>

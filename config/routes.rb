@@ -7,13 +7,14 @@ Rails.application.routes.draw do
   #for maps
   resources :maps
   
-  #for users
-  devise_for :users
-  
   #for subscription/stripe payment
   resource :subscription
   
   root 	to: 'maps#index'
+  
+  #Route for devise registrations
+  devise_for :users, :controllers => { registrations: 'registrations' }
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
