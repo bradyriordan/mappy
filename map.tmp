@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+<html>
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+<head>
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+  <!--------------------
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+  ----------------------
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+  INSTRUCTIONS:
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+  This file only contains the mindmap HTML, you need to download and place one css file (style.css) and two javascript files (js-mindmap.js, raphael-min.js)
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+  in the same folder as this one. To download the files, go here: https://github.com/kennethkufluk/js-mindmap. Jquery is loaded via a CDN, so you don't need 
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+  to download it, however if you want to view your mindmap offline you will. You can download a local copy here: https://jquery.com/.
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+  ----------------------
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+  ---------------------->
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+  
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+  <title>Mappy</title>
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+  
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+  
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+  <!--------------------
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+  ----------------------
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+  Stylesheets 
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+  ----------------------
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+  ---------------------->
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+  
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+  <link href="js-mindmap.css" rel="stylesheet" />  
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+ 
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+ <!---------------------
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+  ----------------------
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+  JS Files 
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+  ----------------------
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+  ---------------------->
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+  
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.15/jquery-ui.min.js"></script>
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+  <script type="text/javascript" src="js-mindmap.js"></script>
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+  <script type="text/javascript" src="raphael-min.js"></script>
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+  <script type="text/javascript" src="script.js"></script>  
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+ 
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+  
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+  <style>
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+	body {
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+	background:
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+/* Mindmap Background Color Goes Below */
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+	
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+	;
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+	
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+	}
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+	
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+	.js-mindmap-active a.node {
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+	  background:
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+/* Mindmap Node Background Color Goes Below */
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+	  
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+	  ;
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+	  
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+	  border: 2px solid 
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+/* Mind Map Now Stroke Color Goes Below */
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+	  
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+	  ;
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+	  
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+	  -webkit-border-top-left-radius: 20px;
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+	  -webkit-border-bottom-right-radius: 20px;
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+	  -moz-border-radius-topleft: 20px;
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+	  -moz-border-radius-bottomright: 20px;
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+	  border-top-left-radius: 20px;
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+	  border-bottom-right-radius: 20px;  
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+	}
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+	
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+	.js-mindmap-active a.node.active {
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+	  padding:5px 10px !important;
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+	  border-width:5px !important;
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+	}
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+	.js-mindmap-active a.node.activeparent {
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+	  padding:5px 10px !important;
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+	  border-width:5px !important;
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+	  background:#8B0000;
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+	}
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+	
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+	svg{
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+		z-index: -5;
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+	}  
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+<!-- Mindmap CSS Content Goes Below -->	 
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+	 
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+  </style>
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+  
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+</head>
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+<body>	
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+<!-- Mindmap HTML Content Goes Below -->
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+</body>
+<ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>
+</html><ul>
+	<li><a href="#">What</a>
+	<ul>
+		<li><a href="#">cheese</a></li>
+		<li><a href="#">asaf</a></li>
+	</ul>
+	</li>
+</ul>

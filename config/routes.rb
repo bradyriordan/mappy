@@ -6,6 +6,9 @@ Rails.application.routes.draw do
 
   #for maps
   resources :maps
+  get '/my_maps' => 'maps#my_maps'
+  get '/download' => 'maps#download'
+  
   
   #for subscription/stripe payment
   resource :subscription

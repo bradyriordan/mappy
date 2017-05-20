@@ -1,0 +1,41 @@
+<% if user_signed_in? %>
+<h1>My Maps</h1>
+<table class="table">
+	
+  <thead>
+	<tr>
+	  <th>Name</th> 
+	  <th>Description</th>	  
+	  <th>Edit</th>
+	</tr>
+  </thead>
+<% end %>
+	   
+  <tbody>
+  
+  <% @maps.each do |map| %>
+    <% if user_signed_in? && map.user_id == current_user.id %>  
+      <tr>
+	    <td><%= map.name %></td> 
+	    <td><%= map.description %></td>		
+			
+	    <td><%= link_to 'Show', map, :class => 'btn btn-success btn-xs' %>				
+        <%= link_to 'Edit', edit_map_path(map), :class => 'btn btn-info btn-xs' %>
+        <%= link_to 'Delete', map, method: :delete, data: { confirm: 'Are you sure?' }, :class => 'btn btn-danger btn-xs' %></td>	
+
+	  </tr>
+    <% end %> 
+  <% end %>  
+  </tbody>	  
+</table>			
+	  
+
+<br>
+
+<% if user_signed_in? %>
+<%= link_to 'New Map', new_map_path, :class => 'btn btn-primary' %>
+<% else %>
+	<%= link_to "Signup to create a map!", new_user_registration_path, :class => 'btn btn-primary' %>	
+<% end %>
+
+

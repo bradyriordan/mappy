@@ -16,6 +16,10 @@ class MapsController < ApplicationController
     end	
 	
   end
+  
+  def my_maps
+    @maps = Map.all	
+  end
 
   # GET /maps/1
   # GET /maps/1.json
@@ -69,6 +73,43 @@ class MapsController < ApplicationController
       format.html { redirect_to maps_url, notice: 'Map was successfully destroyed.' }
       format.json { head :no_content }
     end
+  end
+  
+  def download  
+	@map = Map.find(params[:id])	
+		
+		content = @map.content
+		background = @map.background_color
+		background_node = @map.node_background_color
+		background_stroke = @map.node_stroke_color		
+		
+		
+		full_path_to_read = "#{Rails.root}/public/download/map.html"
+		full_path_to_write = "#{Rails.root}/public/download/map2.html"
+
+		File.open(full_path_to_read) do |source_file|
+		  contents = source_file.read
+		  contents.gsub!(/MindmapHTMLContentGoesBelow/, content)
+		  contents.gsub!(/MindmapBackgroundColorGoesBelow/, background)
+		  contents.gsub!(/MindmapNodeBackgroundColorGoesBelow/, background_node)
+		  contents.gsub!(/MindMapStrokeColorGoesBelow/, background_stroke)
+		  File.open(full_path_to_write, "w+") { |f| f.write(contents) }
+		end
+		
+		#=begin
+		#File.open("#{Rails.root}/public/download/map.html", 'r+'){|file|
+		#while (!file.eof?)
+		#  line = file.readline
+		#  if (line.starts_with?("<!-- Mindmap HTML Content Goes Below -->"))
+		#	file.write(content)				
+		#  end
+		#end
+		#}	
+		#=end
+		
+		
+		send_file Rails.root.join('public','download','map2.html'), :x_sendfile=>true	
+	
   end
 
   private

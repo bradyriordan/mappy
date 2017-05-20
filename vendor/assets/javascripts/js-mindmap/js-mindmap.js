@@ -110,8 +110,8 @@
       if (typeof opts.onclick === 'function') {
         opts.onclick(thisnode);
       }
-      obj.activeNode = thisnode;
-      obj.activeNode.el.addClass('active');
+     obj.activeNode = thisnode;
+     obj.activeNode.el.addClass('active');
       if (obj.activeNode.parent) {
         obj.activeNode.parent.el.addClass('activeparent');
       }
