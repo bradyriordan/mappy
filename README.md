@@ -5,10 +5,18 @@ Kenneth developed an awesome script that builds single-page mindmaps using plain
 I built this app so anyone can create mindmaps using his library without authoring HTML. 
 You can customize node colors, background color and download the entire map to use as you please.
 
-## Details
+## Demo
+[Demo app](https://pacific-mesa-90458.herokuapp.com/maps) - takes about 20 seconds for server to boot
 
-* Rails version 4.2.5
-* [Demo app](https://pacific-mesa-90458.herokuapp.com/maps) - takes about 20 seconds for server to boot
+## Features
+- View public mindmaps without logging in
+- User authentication with Devise 
+- Create mindmaps using simple WYSIWYG editor
+- Search public mindmaps
+- Set background color, node color and node outline
+- Choose whether your Mindmap is publicly viewable
+- View, edit and delete your Mindmaps on "My Mindmaps" page
+- Download standalone HTML file with all dependencies included
 
 ## License
 
