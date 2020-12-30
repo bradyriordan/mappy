@@ -13,7 +13,7 @@ You can customize node colors, background color and download the entire map to u
 - User authentication with Devise 
 - Create mindmaps using simple WYSIWYG editor
 - Search public mindmaps
-- Set background color, node color and node outline
+- Set background color, node and outline color
 - Choose whether your Mindmap is publicly viewable
 - View, edit and delete your Mindmaps on "My Mindmaps" page
 - Download standalone HTML file with all dependencies included
